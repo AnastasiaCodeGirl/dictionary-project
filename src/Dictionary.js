@@ -45,8 +45,8 @@ export default function Dictionary(props) {
           <div className="hint">
             suggested words: sunset, wine, yoga, plant...
           </div>
-          <Results results={results} />
         </section>
+          <Results results={results} />
       </div>
     );
   } else {
